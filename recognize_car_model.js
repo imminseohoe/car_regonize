@@ -20,6 +20,7 @@ async function getCarInfoFromGemini(imageBuffer) {
 - the trim level (e.g., Limited, Premium)
 - Price
 - If possible, key features of the vehicle (e.g., wheel design, headlight shape)
+do not write unknown
 Please provide a confidence level. Respond in JSON format
 example:
 { "manufacturer": "Hyundai",
